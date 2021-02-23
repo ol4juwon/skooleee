@@ -1,4 +1,7 @@
-<?php require 'connect.php';?>
+<?php 
+ini_set("display_errors",true);
+
+require 'connect.php';?>
 <!DOCTYPE html>
 <html lang="en">
 
