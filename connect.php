@@ -6,7 +6,7 @@ session_start();
 //database credentials
 define('DBHOST','us-cdbr-east.cleardb.com');
 define('DBUSER','b9b362858de4a9');
-define('DBPASS','2cb07a7d');
+define('DBPASS','23fe34e2');
 define('DBNAME','heroku_8d5f4fde79ce9f6');
  define("db_port",8889);
 
