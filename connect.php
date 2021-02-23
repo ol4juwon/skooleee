@@ -4,10 +4,10 @@ ob_start();
 session_start();
 
 //database credentials
-define('DBHOST','eu-cdbr-west-03.cleardb.net/');
-define('DBUSER','b088d7910ea3d2');
-define('DBPASS','2cb07a7d');
-define('DBNAME','heroku_88d43cfccb6c15c');
+define('DBHOST','us-cdbr-east.cleardb.com/');
+define('DBUSER','b9b362858de4a9');
+define('DBPASS','23fe34e2');
+define('DBNAME','heroku_8d5f4fde79ce9f6');
  define("db_port",8889);
 
 $db = new PDO("mysql:host=".DBHOST.";dbname=".DBNAME, DBUSER, DBPASS);
