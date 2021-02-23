@@ -1,4 +1,5 @@
 <?php
+ini_set("display_errors",true);
 ob_start();
 session_start();
 
